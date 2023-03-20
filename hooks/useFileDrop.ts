@@ -47,7 +47,7 @@ function useFileDrop(options?: IOptions) {
       onDragFile(e);
       setIsDragActive(false);
     },
-    [onDragFile]
+    [onDragFile],
   );
 
   useEffect(() => {
